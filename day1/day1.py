@@ -5,7 +5,7 @@ import time
 def timer(func):
     n = 10000
     t0 = time.time()
-    for i in range(n): func
+    for n in range(n): func
     t1 = time.time()
     return t1-t0
 
